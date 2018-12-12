@@ -43,6 +43,7 @@ body, html{
     
 }
 
+
 .section{
     text-align: center;
     padding: 50px 80px;
@@ -50,7 +51,7 @@ body, html{
 }
 
 .section-dark{
-    background-color:#282e34;
+    background-color:#666;
     color: #ddd;
 }
 
@@ -69,4 +70,15 @@ body, html{
     background-color: #111;
     color: #fff;
     padding: 20px;
+}
+
+.container{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.conatiner-2{
+    display: infline-flex;
+  align-items: baseline;
 }
